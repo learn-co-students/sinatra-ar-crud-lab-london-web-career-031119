@@ -1,0 +1,7 @@
+<h2>This is where you edit a previous post</h2>
+<form action="/articles/<%= @article.id %>" method="post">
+  <input id="hidden" type="hidden" name="_method" value="patch">
+  <p>Title: <input id="title" style="min-width:445px" type="text" name="article[title]" placeholder="<%= @article.title %>"></p>
+  <p>Content: <input id="content" style="min-height:200px; min-width:400px" type="text" name="article[content]" placeholder="<%= @article.content %>"></p>
+  <input type="submit" id="submit">
+</form>

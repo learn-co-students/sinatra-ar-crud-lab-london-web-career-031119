@@ -1,0 +1,8 @@
+<h1>welcome to articleZ</h1>
+<h4>Your #1 source for, you guessed it, articles</h4>
+
+<ul>
+  <% @articles.each do |article| %>
+    <li> <strong><%= article.title %></strong>: <%= article.content %> </li>
+  <% end %>
+</ul>
