@@ -1,0 +1,9 @@
+<h1>Article Index</h1>
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <%= article.title %>
+      <%= article.content %>
+    </li>
+  <% end %>
+</ul>
