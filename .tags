@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Learn.co Educational Content License	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/LICENSE.md	/^# Learn.co Educational Content License$/;"	function	line:1
+Article	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/app/models/article.rb	/^class Article < ActiveRecord::Base$/;"	class	line:3
+ApplicationController	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/app/controllers/application_controller.rb	/^class ApplicationController < Sinatra::Base$/;"	class	line:4
+fi_check_migration	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/config/environment.rb	/^def fi_check_migration$/;"	method	line:6
+app	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/spec/spec_helper.rb	/^def app$/;"	method	line:37
+Sinatra ActiveRecord CRUD	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/README.md	/^## Sinatra ActiveRecord CRUD$/;"	function	line:1
+Instructions	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/README.md	/^## Instructions$/;"	function	line:7
+Database	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/README.md	/^### Database$/;"	function	line:21
+Create	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/README.md	/^### Create$/;"	function	line:28
+Read	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/README.md	/^### Read$/;"	function	line:44
+Update	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/README.md	/^### Update$/;"	function	line:61
+Delete	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/README.md	/^### Delete$/;"	function	line:79
+Making our Delete "Button"	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/README.md	/^#### Making our Delete "Button"$/;"	function	line:90
+Contributing to Learn.co Curriculum	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/CONTRIBUTING.md	/^# Contributing to Learn.co Curriculum$/;"	function	line:1
+Raising an Issue to Encourage a Contribution	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/CONTRIBUTING.md	/^## Raising an Issue to Encourage a Contribution$/;"	function	line:8
+Submitting a Pull Request to Suggest an Improvement	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/CONTRIBUTING.md	/^## Submitting a Pull Request to Suggest an Improvement$/;"	function	line:16
+Why Contribute?	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/CONTRIBUTING.md	/^# Why Contribute?$/;"	function	line:28
+CreateArticles	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/db/migrate/20151201201114_create_articles.rb	/^class CreateArticles < ActiveRecord::Migration[5.1]$/;"	class	line:1
+change	/Users/manon/Development/code/sinatra-ar-crud-lab-london-web-career-031119/db/migrate/20151201201114_create_articles.rb	/^  def change$/;"	method	line:2	class:CreateArticles
