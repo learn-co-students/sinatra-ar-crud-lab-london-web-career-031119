@@ -1,0 +1,13 @@
+<h1>Article Index</h1>
+
+<ul>
+  <% @articles.each do |article| %>
+  <li>
+    <a href="/articles/<%= article.id%>">
+      <%= article.title %>
+      <%= article.content %>
+
+    </a>
+  </li>
+  <% end %>
+</ul>
