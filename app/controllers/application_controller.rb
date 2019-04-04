@@ -13,7 +13,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/articles' do
-  end
     erb :index
   end
 
@@ -22,15 +21,16 @@ class ApplicationController < Sinatra::Base
     redirect '/articles'
   end
 
+
+    get '/articles/:id/edit' do
+      @article = Article.find_by_id(params[:id])
+      erb :edit
+    end
+
   get '/articles/:id' do
     binding.pry
-    @article = Article.find(params)
+    @article = Article.find_by_id(params[:id])
     erb :show
-  end
-
-  get '/articles/:id/edit' do
-    @article = Article.find(params)
-    erb :edit
   end
 
   get '/' do
