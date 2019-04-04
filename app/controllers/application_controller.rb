@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
     @articles = Article.all
-  erb :index
+  redirect "/artticles"
   end
 
   get '/articles' do
@@ -48,15 +48,7 @@ class ApplicationController < Sinatra::Base
     @articles=Article.all
     @article = Article.find(params[:id])
     @article.destroy
-    erb :index
-  end
-
-
-
-
-
-
-
-
+    redirect '/articles'
+    end
 
   end

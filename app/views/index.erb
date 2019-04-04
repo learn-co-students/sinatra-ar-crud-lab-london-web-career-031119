@@ -1,7 +1,12 @@
 <h1>All Articles</h1>
 
   <% @articles.each do |x| %>
+  <p>ID: <%= x.id %> </p>
   <p>Title: <%= x.title %> </p>
   <p>Content : <%= x.content %></p>
   <p>------------------------</p>
   <% end %>
+
+
+<a href="/articles">All articles</a><br>
+<a href="/articles/new">New article</a>
