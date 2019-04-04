@@ -1,0 +1,10 @@
+<form action="/articles/:id" method="post">
+  <input id="hidden" type="hidden" name="_method" value="PATCH">
+
+  <label>Title:</label><input type="text" name="title" value=<%= @article[:title] %>>
+
+  <label>Content:</label><input type="text" name="content" value=<%= @article[:title] %>>
+
+  <input type="submit" value="Save Changes">
+
+</form>
