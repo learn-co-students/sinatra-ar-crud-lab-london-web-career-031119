@@ -1,0 +1,9 @@
+<h1>All Articles</h1>
+<% @articles.each do |a|%>
+<li><%= a.title%>
+  <a href="/articles/<%= a.id%>/edit">Edit</a>
+<form method="post" action="/articles/<%= a.id%>">
+<input id="hidden" type="hidden" name="_method" value="DELETE">
+<input type="submit" value="delete">
+</form></li>
+<% end%>
